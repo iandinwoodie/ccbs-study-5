@@ -1,0 +1,464 @@
+{
+  "id": "pNU1LO86",
+  "type": "quiz",
+  "title": "house-soiling-study-owner",
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/9M4eRb"
+  },
+  "theme": {
+    "href": "https://api.typeform.com/themes/az2vZn"
+  },
+  "settings": {
+    "language": "en",
+    "progress_bar": "proportion",
+    "meta": {
+      "allow_indexing": false
+    },
+    "hide_navigation": false,
+    "is_public": true,
+    "is_trial": false,
+    "show_progress_bar": true,
+    "show_typeform_branding": false,
+    "are_uploads_public": false,
+    "show_time_to_complete": false,
+    "show_number_of_submissions": false,
+    "show_cookie_consent": false,
+    "show_question_number": true,
+    "show_key_hint_on_choices": true,
+    "autosave_progress": true,
+    "free_form_navigation": false,
+    "use_lead_qualification": false,
+    "pro_subdomain_enabled": false,
+    "auto_translate": true,
+    "partial_responses_to_all_integrations": false
+  },
+  "thankyou_screens": [
+    {
+      "id": "gmnyrbsTjQtZ",
+      "ref": "4b942fea-f6c4-4c44-a1e8-3d57e25bf307",
+      "title": "Dog Top Level",
+      "type": "url_redirect",
+      "properties": {
+        "redirect_url": "https://behaviorstudies.typeform.com/to/Yje10CYX?id={{field:c93a60d1-6c90-4e8f-9b33-1f573c062b9d}}&msg=%00&list=%00&sep=%20"
+      }
+    },
+    {
+      "id": "VyNMCJu10IQg",
+      "ref": "thankyou-screen",
+      "title": "Thank you for your interest!",
+      "type": "thankyou_screen",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "default_redirect",
+        "button_text": "again",
+        "description": "We only collect responses from dog owners who have consented to the use of their responses."
+      }
+    },
+    {
+      "id": "DefaultTyScreen",
+      "ref": "default_tys",
+      "title": "All done! Thanks for your time.",
+      "type": "thankyou_screen",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "welcome_screens": [
+    {
+      "id": "ZqwgY2gPGhaV",
+      "ref": "71af5659-720d-4e45-b63c-c30c71390a01",
+      "title": "January 2025 Survey",
+      "properties": {
+        "show_button": true,
+        "button_text": "Start",
+        "description": "Center for Canine Behavior Studies (CCBS)\nA nonprofit 501(c)(3) organization"
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "oG60kPpk92pm",
+      "title": "The Center would like to use your anonymous responses to provide insights that improve the welfare of dogs. Do you consent to the use of your responses? ",
+      "ref": "3d12afdd-1f56-43ae-85b7-9887bad87184",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "aQHako1o1GVD",
+      "title": "Please enter your email address",
+      "ref": "c93a60d1-6c90-4e8f-9b33-1f573c062b9d",
+      "properties": {
+        "description": "Your email address is *only *used link your consent with the submissions you will enter for your dog(s). The Center for Canine Behavior Studies* never* shares your email address with third parties."
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "email"
+    },
+    {
+      "id": "MlBY8cvUjfZr",
+      "title": "Aside from your dog(s), do you have any other animals in the home?",
+      "ref": "53130703-f1e7-4672-ae4f-d84ccbadea83",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "RckM78Vg8oqI",
+      "title": "Please select the other types of animals in your home",
+      "ref": "6c9c2f8a-4d05-4487-8c72-0ed47c47f57e",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": true,
+        "allow_other_choice": true,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "FEXRAXtvRiPa",
+            "ref": "98f969e8-56fb-4c6e-913e-5c90c27b158e",
+            "label": "Cat"
+          },
+          {
+            "id": "HBsIr4TIhsjp",
+            "ref": "f5122f82-f4a8-496e-b9b3-ef30bd43bab2",
+            "label": "Rabbit"
+          },
+          {
+            "id": "reWGkhZkhDwH",
+            "ref": "58839225-29e9-4015-a540-f57419f5c410",
+            "label": "Bird"
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "QPVtRA6iPa7f",
+      "title": "Do you have multiple dogs in the home?",
+      "ref": "1432d6b7-959b-4d79-a230-bfd26d3e7157",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "8KZAfcdei8Xz",
+      "title": "How many dogs do you have in your house?",
+      "ref": "a6abd6ff-e7af-438d-9e14-20f1cb48f40e",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "number"
+    },
+    {
+      "id": "1TTZlCG0Esia",
+      "title": "How many hours per day are your pets left home alone?",
+      "ref": "e65b5716-522a-4eb3-94eb-bfd2ab62cfa4",
+      "properties": {
+        "description": "If none, please enter 0"
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "number"
+    },
+    {
+      "id": "esj4khXWWO7q",
+      "title": "What type of home do you live in?",
+      "ref": "30313fb2-b65a-4c1e-acba-e13ef13c1c20",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": true,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "yLOtOP0trAsi",
+            "ref": "bf82f6fb-62af-4219-b932-72af63f72bb4",
+            "label": "House"
+          },
+          {
+            "id": "C2M84AuY91xg",
+            "ref": "27e17bee-71dd-4f0f-91fd-2db2f84ba507",
+            "label": "Apartment"
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "MXj1T6o2GU6k",
+      "title": "Does your home have a yard or shared outdoors space?",
+      "ref": "df1479b0-bb80-4291-a8c8-e1adb792de2f",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "ag8zhX4NhYyd",
+      "title": "Have you had any recent changes to your daily schedule?",
+      "ref": "9be194cb-dfb2-4bf7-a72a-50604fe408e5",
+      "properties": {
+        "description": "E.g., a change in work hours"
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "6jvWRj3sPJYD",
+      "title": "Have you recently moved to a new home?",
+      "ref": "5d80de3c-411d-4d9c-94de-cb1002455ae8",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "lmuMr6Lm06UJ",
+      "title": "Has there been any recent change in the family structure at home?",
+      "ref": "a7eb2495-d3b4-4924-954a-f02db20935d3",
+      "properties": {
+        "description": "E.g., new roommate, new pet, the passing of a loved one."
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "ktMLH11BCXEm",
+      "title": "Is there any other recent change you to your life that you would like to tell us about?",
+      "ref": "a3133147-2911-44a5-88f3-996028139df2",
+      "properties": {
+        "description": "Even small changes in life can trigger a change in behavior for pets. This information helps us identify how changes in our behavior influences the behavior of our pets."
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "xlrUYwribQl6",
+      "title": "Please describe this other recent life change:",
+      "ref": "a803662e-bfe7-42f8-b539-07a4fbda3ab9",
+      "properties": {},
+      "validations": {
+        "required": false
+      },
+      "type": "long_text"
+    }
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "53130703-f1e7-4672-ae4f-d84ccbadea83",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "6c9c2f8a-4d05-4487-8c72-0ed47c47f57e"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "53130703-f1e7-4672-ae4f-d84ccbadea83"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "1432d6b7-959b-4d79-a230-bfd26d3e7157"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "a3133147-2911-44a5-88f3-996028139df2",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "a803662e-bfe7-42f8-b539-07a4fbda3ab9"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "a3133147-2911-44a5-88f3-996028139df2"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "4b942fea-f6c4-4c44-a1e8-3d57e25bf307"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "3d12afdd-1f56-43ae-85b7-9887bad87184",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "thankyou-screen"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "3d12afdd-1f56-43ae-85b7-9887bad87184"
+              },
+              {
+                "type": "constant",
+                "value": false
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "c93a60d1-6c90-4e8f-9b33-1f573c062b9d"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "1432d6b7-959b-4d79-a230-bfd26d3e7157",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "a6abd6ff-e7af-438d-9e14-20f1cb48f40e"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "1432d6b7-959b-4d79-a230-bfd26d3e7157"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "e65b5716-522a-4eb3-94eb-bfd2ab62cfa4"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "c93a60d1-6c90-4e8f-9b33-1f573c062b9d",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "53130703-f1e7-4672-ae4f-d84ccbadea83"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    }
+  ],
+  "created_at": "2025-01-20T15:50:34+00:00",
+  "last_updated_at": "2025-03-20T06:26:19+00:00",
+  "published_at": "2025-01-20T16:17:50+00:00",
+  "_links": {
+    "display": "https://behaviorstudies.typeform.com/to/pNU1LO86",
+    "responses": "https://api.typeform.com/forms/pNU1LO86/responses"
+  }
+}

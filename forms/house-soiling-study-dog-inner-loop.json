@@ -1,0 +1,1681 @@
+{
+  "id": "CTXOcDXJ",
+  "type": "quiz",
+  "title": "house-soiling-study-dog-inner-loop",
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/9M4eRb"
+  },
+  "theme": {
+    "href": "https://api.typeform.com/themes/az2vZn"
+  },
+  "settings": {
+    "language": "en",
+    "progress_bar": "proportion",
+    "meta": {
+      "allow_indexing": false
+    },
+    "hide_navigation": false,
+    "is_public": true,
+    "is_trial": false,
+    "show_progress_bar": true,
+    "show_typeform_branding": true,
+    "are_uploads_public": false,
+    "show_time_to_complete": true,
+    "show_number_of_submissions": false,
+    "show_cookie_consent": false,
+    "show_question_number": true,
+    "show_key_hint_on_choices": true,
+    "autosave_progress": true,
+    "free_form_navigation": false,
+    "use_lead_qualification": false,
+    "pro_subdomain_enabled": false,
+    "auto_translate": true,
+    "partial_responses_to_all_integrations": false
+  },
+  "thankyou_screens": [
+    {
+      "id": "epmtWg9wuN2B",
+      "ref": "56b43501-d25b-431d-81e5-62a5ffc799d3",
+      "title": "https://behaviorstudies.typeform.com/to/CTXOcDXJ#curr={{hidden:p1}}&p1={{hidden:p2}}&p2={{hidden:p3}}&p3={{hidden:p4}}&p4={{hidden:p5}}&p5=END&list={{hidden:list}}&dog_name={{hidden:dog_name}}&sep={{hidden:sep}}&id={{hidden:id}}",
+      "type": "url_redirect",
+      "properties": {
+        "redirect_url": "https://behaviorstudies.typeform.com/to/CTXOcDXJ#curr={{hidden:p1}}&p1={{hidden:p2}}&p2={{hidden:p3}}&p3={{hidden:p4}}&p4={{hidden:p5}}&p5=END&list={{hidden:list}}&dog_name={{hidden:dog_name}}&sep={{hidden:sep}}&id={{hidden:id}}"
+      }
+    },
+    {
+      "id": "1k5SMp2ablhI",
+      "ref": "f08ccfad-7e36-4a9f-be45-6910ae5b22e1",
+      "title": "https://behaviorstudies.typeform.com/to/F2M0A0xR#list={{hidden:list}}&sep={{hidden:sep}}&dog_name={{hidden:dog_name}}&id={{hidden:id}}",
+      "type": "url_redirect",
+      "properties": {
+        "redirect_url": "https://behaviorstudies.typeform.com/to/F2M0A0xR#list={{hidden:list}}&sep={{hidden:sep}}&dog_name={{hidden:dog_name}}&id={{hidden:id}}"
+      }
+    },
+    {
+      "id": "DefaultTyScreen",
+      "ref": "default_tys",
+      "title": "Thanks for completing this typeform\nNow *create your own* \u2014 it's free, easy, & beautiful",
+      "type": "thankyou_screen",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "default_redirect",
+        "button_text": "Create a *typeform*"
+      },
+      "attachment": {
+        "type": "image",
+        "href": "https://images.typeform.com/images/2dpnUBBkz2VN"
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "qjoU3xledpms",
+      "title": "Let's talk about {{hidden:dog_name}} and their {{hidden:curr}} behavior.",
+      "ref": "d7f4150f-d814-49ad-87b1-c75105389de8",
+      "properties": {
+        "button_text": "Continue",
+        "show_button": true,
+        "fields": [
+          {
+            "id": "GdrYJ8LBmEQd",
+            "title": "Did you take {{hidden:dog_name}} to the vet for the {{hidden:curr}} behavior? ",
+            "ref": "01JJTGTV1RAA7NZX0MMK5MYC0K",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "PknvDDzz914i",
+            "title": "Did the vet conduct any tests?",
+            "ref": "94028cfe-550e-4e57-9b41-343e911377c6",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "oKQvfZkJxz1j",
+            "title": "What type of tests were conducted?",
+            "ref": "9b9c2293-48de-4b84-af31-7824b0c2e4a5",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "p20ut5ZhSH5r",
+                  "ref": "e61429f4-ad1a-4103-8ba1-cbf72fdcca97",
+                  "label": "Blood"
+                },
+                {
+                  "id": "azGApfyvlH2O",
+                  "ref": "66023c49-0a15-48e8-90ee-9f823e79aee1",
+                  "label": "Urine"
+                },
+                {
+                  "id": "O2KZesP7Kdke",
+                  "ref": "f62ba361-d1b4-4c90-aaba-d96345ef4d0f",
+                  "label": "Fecal"
+                },
+                {
+                  "id": "29orqIhiXJBU",
+                  "ref": "709affe7-f14b-4e5a-a024-c698ee9c237f",
+                  "label": "Imaging (e.g. X-ray)"
+                }
+              ]
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "6Sc1olGTHoT7",
+            "title": "Was your dog diagnosed with a related medical condition?",
+            "ref": "930f368b-3fd6-427b-9eed-5409578963b7",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "IndMMBlswpPD",
+            "title": "What medical conditions were diagnosed?",
+            "ref": "b1c518d3-3b0c-46ad-b7ba-b2f41233b215",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "BRbPF0lTtw8p",
+                  "ref": "7808b0ff-2768-4926-b6b1-f48c304511f7",
+                  "label": "UTI / cystitis"
+                },
+                {
+                  "id": "BtkwyOAyKcAc",
+                  "ref": "2fc547d2-6489-4fa9-b2bf-ed0013de0d72",
+                  "label": "Chronic nephritis (ongoing kidney disease)"
+                },
+                {
+                  "id": "CQc2eKvVezBn",
+                  "ref": "3eedcf5a-b370-4e97-a4da-e18afcb8c868",
+                  "label": "Kidney stones"
+                },
+                {
+                  "id": "6H0k4XkfnyjT",
+                  "ref": "4235e369-216d-45a4-92ca-a703c6d5e04a",
+                  "label": "Bladder stones"
+                },
+                {
+                  "id": "GtPsCQenFHf6",
+                  "ref": "723353b0-0466-4181-99ba-3310a9834817",
+                  "label": "Diabetes"
+                },
+                {
+                  "id": "EvGQyELW17Hv",
+                  "ref": "68446478-c43d-40f7-9831-3e5c26ac492d",
+                  "label": "GI issue"
+                }
+              ]
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "wAEsMY0MnYQv",
+            "title": "Was it determined that your dog\u2019s house soiling problem was related to anxiety?",
+            "ref": "1ff748bd-1a5b-4d3d-b714-8f864c4b4f44",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "mxsmPPiEF5Nv",
+            "title": "Was medication prescribed?",
+            "ref": "a6bb1b71-fb91-463a-9425-385d24c5ba14",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "bwHGDsn3tMYc",
+            "title": "Please select the type(s) of medication prescribed",
+            "ref": "855c5701-3997-4d21-9d8a-fc5517c84007",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "qBXyRA6jgQWU",
+                  "ref": "22ced4cd-c773-4b56-a1ce-97ee247f7e06",
+                  "label": "Fluoxetine / Reconcile"
+                },
+                {
+                  "id": "vaz81IZEkHcG",
+                  "ref": "6a541eb2-4107-4493-a73a-b556324b39be",
+                  "label": "Clomipramine / Clomicalm"
+                },
+                {
+                  "id": "WzcuaRCqcM6e",
+                  "ref": "71ca7f95-79a8-468b-ac1a-aa7ea9364710",
+                  "label": "Citalopram / Celexa"
+                },
+                {
+                  "id": "yn4CbrcMdQGF",
+                  "ref": "b7960b41-f9fb-455d-b760-052bfd7166d4",
+                  "label": "Trazodone"
+                },
+                {
+                  "id": "lyKxLCyxVttm",
+                  "ref": "28bfa916-7b7c-49f4-b1ef-ddcc184d2f20",
+                  "label": "Valium-type drug (e.g., Ativan, Xanax)"
+                },
+                {
+                  "id": "lPp1rNEyUx18",
+                  "ref": "29d67955-e434-4764-b419-8da0581f0818",
+                  "label": "Nutraceuticals (e.g., ginseng)"
+                }
+              ]
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "BG7mEMqNBXOB",
+            "title": "Please select the type(s) of medication prescribed",
+            "ref": "51ff2f6a-a685-430c-9048-12e251d50ae8",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "MYZ4Rg2KsVhy",
+                  "ref": "b89709f9-7c2b-42e3-8714-d0cef6813ade",
+                  "label": "Phenylpropanolamine (PPA)"
+                },
+                {
+                  "id": "Mgx9pkGeu0NU",
+                  "ref": "f56da58b-45a0-4d6c-974a-02437e0d705f",
+                  "label": "Estrogen supplement (DES)"
+                },
+                {
+                  "id": "7zZnvil1gjZF",
+                  "ref": "f3eecd16-51fc-41b5-9c25-cc27d47fde3a",
+                  "label": "Dietary additive (pumpkin, soybean product)"
+                }
+              ]
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "Sfr7Cw591GkS",
+            "title": "Please select the type(s) of medication prescribed",
+            "ref": "ebf40ca5-eb55-485c-9dbf-21a76dcb829d",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "5nG6Rms1svRd",
+                  "ref": "44cfa71d-1899-44bd-bccd-cec474ff041c",
+                  "label": "Deprenyl (i.e., Anipryl, Selegiline)"
+                },
+                {
+                  "id": "SVk45Jb4AYE3",
+                  "ref": "2fd3ca1e-f863-4919-aa39-7fd755b022d1",
+                  "label": "Dietary supplements (e.g., Coenzyme Q10, melatonin)"
+                }
+              ]
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "YR70mKhRIoF5",
+            "title": "Did {{hidden:dog_name}} receive the prescribed medication?",
+            "ref": "4f634a51-da04-48b2-90ad-7cc388b0e92b",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "2FwEbPigas96",
+            "title": "Was genital surgery recommended?",
+            "ref": "0774db68-acd2-467c-8ca6-cb72ede1de82",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "A0kNPgsSKfoz",
+            "title": "Did {{hidden:dog_name}} end up receiving the genital surgery?",
+            "ref": "4663bbda-09c6-4a13-ab0f-0c7409ac1121",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "4ImlvcIdzfhX",
+            "title": "Did you take your dog to a trainer for this soiling problem?",
+            "ref": "44229e72-0ca0-4e76-90f6-172d70a78d43",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "fztR3qVnmn3Q",
+            "title": "What type(s) of trainers were consulted?",
+            "ref": "7d4021fc-7e20-427c-a608-1c3020b081f8",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "Qio4YKCIs5IT",
+                  "ref": "c41389cd-bc46-484d-a4e0-800376454d69",
+                  "label": "Council of Certified Professional Dog Trainers (CCPDT)"
+                },
+                {
+                  "id": "eXWf78auwprI",
+                  "ref": "fc113bb8-18ce-49eb-ac7f-52a0094645eb",
+                  "label": "Fear Free Certified Trainer"
+                },
+                {
+                  "id": "qFvFNcfiFCHC",
+                  "ref": "aaa4709d-2f67-4c89-8c97-208acdafb618",
+                  "label": "International Association of Animal Behavior Consulting"
+                },
+                {
+                  "id": "QD0EA0cXaJC8",
+                  "ref": "66ba410c-11da-4498-a7e3-5e09a44a6724",
+                  "label": "Jean Donaldson\u2019s Academy for Dogs Trainers"
+                },
+                {
+                  "id": "PubBbCxIfFcv",
+                  "ref": "bd6eefb7-24c2-455e-8df8-8a69c7458f95",
+                  "label": "Karen Pryor Academy (KPA)"
+                },
+                {
+                  "id": "bC6B6mnku6az",
+                  "ref": "8aad0ef5-3a25-4a20-92fc-05829e8288fd",
+                  "label": "Malena DeMartini Certified Separation Anxiety Trainer (CSAT)"
+                },
+                {
+                  "id": "onBkPQ6e9ByH",
+                  "ref": "14830c2c-d89c-4d68-b202-e029a06ab2e5",
+                  "label": "Pet Professional Guild"
+                },
+                {
+                  "id": "5ryxRK5AYVqG",
+                  "ref": "571dce38-3f5f-4c72-af57-5c3e676d20d7",
+                  "label": "Victoria Stillwell\u2019s Academy for Dog Training"
+                },
+                {
+                  "id": "YsxDgIVu3pZ7",
+                  "ref": "88a79cc4-f20c-4e17-ae51-a6e969100b94",
+                  "label": "I don't know"
+                }
+              ]
+            },
+            "validations": {
+              "required": false
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "LNszILhcP6Ak",
+            "title": "Did the trainer recommend training?",
+            "ref": "a1ef1d96-9f27-41e3-a724-f8d39fe24eae",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "b4kH04KQ0YPz",
+            "title": "Was training employed?",
+            "ref": "7327d2a7-ab74-4f75-a47d-c3eed3b5d518",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "DJnq5fm0MYpI",
+            "title": "What type of training was employed?",
+            "ref": "f516ff41-b632-48f4-b128-a30f74dd5d22",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "alfuYQT2urRC",
+                  "ref": "003c5a3b-59ca-4dbc-ad22-662a4e117223",
+                  "label": "Avoidance"
+                },
+                {
+                  "id": "Zil8MOHe7r9x",
+                  "ref": "49fd1e4c-05a2-4d7e-a712-40d60d56475a",
+                  "label": "Behavior modification training"
+                },
+                {
+                  "id": "Gw9vFz0Doox3",
+                  "ref": "b3e80deb-e268-4e89-8820-994db62ae2bc",
+                  "label": "Punishment"
+                },
+                {
+                  "id": "4jTkBCSvbHDo",
+                  "ref": "0ea884c0-0603-4d42-9036-bcd0424c237b",
+                  "label": "Positive reinforcement training"
+                }
+              ]
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "dga5zakGLSGR",
+            "title": "What type of training was employed?",
+            "ref": "f550345a-7647-40ef-a9ab-183ced4bf4a3",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "JaSJPBTqESCM",
+                  "ref": "63fe6bbe-6ce5-4b4d-8fd6-32b7a32fd8e8",
+                  "label": "Odor neutralization"
+                },
+                {
+                  "id": "MZ9dQENqvdbD",
+                  "ref": "89e9ebfa-1915-4fc7-ae16-a3b81a5223b3",
+                  "label": "More exercise"
+                },
+                {
+                  "id": "wIx1nEnUcpNC",
+                  "ref": "a091c841-7517-460e-8646-823e643d015f",
+                  "label": "Advice to neuter the dog"
+                },
+                {
+                  "id": "1srJgc86ZqTn",
+                  "ref": "fae7c806-5b1e-446d-adc0-3ea63c0608a2",
+                  "label": "Pheromone treatment (e.g. Adaptil)"
+                }
+              ]
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "oVm6y6enuxE8",
+            "title": "What type of training was employed?",
+            "ref": "e53b0fb1-2710-425a-b30a-9f1a58a4e723",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "ehMJEX5EqcI4",
+                  "ref": "7dfaa3f1-f1d1-4d2f-bab1-8015a8d46911",
+                  "label": "Desensitization"
+                },
+                {
+                  "id": "Iz3mh9R5aiH0",
+                  "ref": "e1dd455e-b30b-447d-a045-00ea89167679",
+                  "label": "Counterconditioning"
+                },
+                {
+                  "id": "KKc0pn8tlNhq",
+                  "ref": "45941d45-2025-4db8-b708-cfdc06c42ead",
+                  "label": "Planned departure technique"
+                },
+                {
+                  "id": "XEajXo86Cd7o",
+                  "ref": "e6fc2d05-274f-485a-ac92-c5103144c441",
+                  "label": "Environmental modification"
+                },
+                {
+                  "id": "w3De3o2v0Mte",
+                  "ref": "547b6538-5527-49ee-a513-c3144e02ebef",
+                  "label": "Minimizing drama or leaving and returning"
+                }
+              ]
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "5Idnkv1tWLWZ",
+            "title": "What type of training was employed?",
+            "ref": "5af90041-11f9-4157-abb9-1cdf1c1c6da6",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": true,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "GGg6dwAc8vIF",
+                  "ref": "79d868c3-feb6-441a-932b-c0b311515e44",
+                  "label": "Traditional house training program"
+                },
+                {
+                  "id": "TFaXbhRM4Mbi",
+                  "ref": "1270b671-3791-4b3c-97ce-d343030af535",
+                  "label": "Punishing the dog immediately if caught"
+                }
+              ]
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "multiple_choice"
+          },
+          {
+            "id": "qPp2t3AB58kB",
+            "title": "Please describe the type of training employed",
+            "ref": "6621f220-238b-4595-a53a-2297d9d66d6b",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "long_text"
+          },
+          {
+            "id": "FJzpep6N752e",
+            "title": "Was a behavior modification strategy employed?",
+            "ref": "88618a4f-5191-43ac-a0b5-fb52a072d4a2",
+            "properties": {},
+            "validations": {
+              "required": true
+            },
+            "type": "yes_no"
+          },
+          {
+            "id": "Mi6cfqcZ8DxV",
+            "title": "Which behavior modification strategy was employed?",
+            "ref": "80db3edf-2baa-402e-ae05-b860cad42bb1",
+            "properties": {
+              "randomize": false,
+              "allow_multiple_selection": false,
+              "allow_other_choice": true,
+              "vertical_alignment": true,
+              "choices": [
+                {
+                  "id": "QNEmeol2Krjz",
+                  "ref": "4cfcb4e4-ac78-4283-b63f-22269643e7fc",
+                  "label": "Desensitization"
+                },
+                {
+                  "id": "i0Xm4pSBCaxq",
+                  "ref": "d7c564bb-96eb-46a1-9658-565da4f17a2c",
+                  "label": "Counterconditioning"
+                },
+                {
+                  "id": "b8APXplxBb7p",
+                  "ref": "d4ea60df-bfbf-4529-8250-7f00ed54d497",
+                  "label": "Environmental modification"
+                },
+                {
+                  "id": "P7slBlEDNIrZ",
+                  "ref": "3d6e0952-fa32-4562-bc75-3c3777000654",
+                  "label": "Minimizing drama or leaving and returning"
+                }
+              ]
+            },
+            "validations": {
+              "required": true
+            },
+            "type": "multiple_choice"
+          }
+        ]
+      },
+      "type": "group"
+    },
+    {
+      "id": "rKMnhPohOQXv",
+      "title": "Please share any additional information about {{hidden:dog_name}} that you would like us to know.",
+      "ref": "8cef052b-ef6f-4ea3-87a8-cccee5bfeb1b",
+      "properties": {
+        "description": "You can leave this blank if you have no additional information to share."
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "long_text"
+    },
+    {
+      "id": "HZyE6lRhURFd",
+      "title": "{{hidden:curr}}",
+      "ref": "dcf25c34-3e5c-401d-8ffc-a5a72a482a82",
+      "properties": {
+        "description": "Please continue on to the next section.",
+        "button_text": "Continue",
+        "hide_marks": true
+      },
+      "type": "statement"
+    }
+  ],
+  "hidden": [
+    "p1",
+    "p2",
+    "p3",
+    "curr",
+    "list",
+    "dog_name",
+    "sep",
+    "id",
+    "p4",
+    "p5"
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "01JJTGTV1RAA7NZX0MMK5MYC0K",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "94028cfe-550e-4e57-9b41-343e911377c6"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "01JJTGTV1RAA7NZX0MMK5MYC0K"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "44229e72-0ca0-4e76-90f6-172d70a78d43"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "94028cfe-550e-4e57-9b41-343e911377c6",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "9b9c2293-48de-4b84-af31-7824b0c2e4a5"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "94028cfe-550e-4e57-9b41-343e911377c6"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "930f368b-3fd6-427b-9eed-5409578963b7"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "44229e72-0ca0-4e76-90f6-172d70a78d43",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "7d4021fc-7e20-427c-a608-1c3020b081f8"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "44229e72-0ca0-4e76-90f6-172d70a78d43"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "7327d2a7-ab74-4f75-a47d-c3eed3b5d518"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "0774db68-acd2-467c-8ca6-cb72ede1de82",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "4663bbda-09c6-4a13-ab0f-0c7409ac1121"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "0774db68-acd2-467c-8ca6-cb72ede1de82"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "44229e72-0ca0-4e76-90f6-172d70a78d43"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "8cef052b-ef6f-4ea3-87a8-cccee5bfeb1b",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "f08ccfad-7e36-4a9f-be45-6910ae5b22e1"
+            }
+          },
+          "condition": {
+            "op": "contains",
+            "vars": [
+              {
+                "type": "hidden",
+                "value": "p1"
+              },
+              {
+                "type": "constant",
+                "value": "END"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "56b43501-d25b-431d-81e5-62a5ffc799d3"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "930f368b-3fd6-427b-9eed-5409578963b7",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "b1c518d3-3b0c-46ad-b7ba-b2f41233b215"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "930f368b-3fd6-427b-9eed-5409578963b7"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "1ff748bd-1a5b-4d3d-b714-8f864c4b4f44"
+            }
+          },
+          "condition": {
+            "op": "equal",
+            "vars": [
+              {
+                "type": "hidden",
+                "value": "curr"
+              },
+              {
+                "type": "constant",
+                "value": "simple house soiling"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "a6bb1b71-fb91-463a-9425-385d24c5ba14"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "b1c518d3-3b0c-46ad-b7ba-b2f41233b215",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "1ff748bd-1a5b-4d3d-b714-8f864c4b4f44"
+            }
+          },
+          "condition": {
+            "op": "equal",
+            "vars": [
+              {
+                "type": "hidden",
+                "value": "curr"
+              },
+              {
+                "type": "constant",
+                "value": "simple house soiling"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "a6bb1b71-fb91-463a-9425-385d24c5ba14"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "a6bb1b71-fb91-463a-9425-385d24c5ba14",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "51ff2f6a-a685-430c-9048-12e251d50ae8"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "a6bb1b71-fb91-463a-9425-385d24c5ba14"
+                  },
+                  {
+                    "type": "constant",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "op": "equal",
+                "vars": [
+                  {
+                    "type": "hidden",
+                    "value": "curr"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "incontinence"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "ebf40ca5-eb55-485c-9dbf-21a76dcb829d"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "a6bb1b71-fb91-463a-9425-385d24c5ba14"
+                  },
+                  {
+                    "type": "constant",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "op": "equal",
+                "vars": [
+                  {
+                    "type": "hidden",
+                    "value": "curr"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "cognitive decline"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "855c5701-3997-4d21-9d8a-fc5517c84007"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "a6bb1b71-fb91-463a-9425-385d24c5ba14"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "0774db68-acd2-467c-8ca6-cb72ede1de82"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "a6bb1b71-fb91-463a-9425-385d24c5ba14"
+                  },
+                  {
+                    "type": "constant",
+                    "value": false
+                  }
+                ]
+              },
+              {
+                "op": "equal",
+                "vars": [
+                  {
+                    "type": "hidden",
+                    "value": "curr"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "incontinence"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "44229e72-0ca0-4e76-90f6-172d70a78d43"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "4f634a51-da04-48b2-90ad-7cc388b0e92b",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "0774db68-acd2-467c-8ca6-cb72ede1de82"
+            }
+          },
+          "condition": {
+            "op": "equal",
+            "vars": [
+              {
+                "type": "hidden",
+                "value": "curr"
+              },
+              {
+                "type": "constant",
+                "value": "incontinence"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "44229e72-0ca0-4e76-90f6-172d70a78d43"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "7327d2a7-ab74-4f75-a47d-c3eed3b5d518",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "f516ff41-b632-48f4-b128-a30f74dd5d22"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "7327d2a7-ab74-4f75-a47d-c3eed3b5d518"
+                  },
+                  {
+                    "type": "constant",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "op": "equal",
+                "vars": [
+                  {
+                    "type": "hidden",
+                    "value": "curr"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "submissive urination"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "f550345a-7647-40ef-a9ab-183ced4bf4a3"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "7327d2a7-ab74-4f75-a47d-c3eed3b5d518"
+                  },
+                  {
+                    "type": "constant",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "op": "equal",
+                "vars": [
+                  {
+                    "type": "hidden",
+                    "value": "curr"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "urine marking"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "e53b0fb1-2710-425a-b30a-9f1a58a4e723"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "7327d2a7-ab74-4f75-a47d-c3eed3b5d518"
+                  },
+                  {
+                    "type": "constant",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "op": "equal",
+                "vars": [
+                  {
+                    "type": "hidden",
+                    "value": "curr"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "simple house soiling"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "1ff748bd-1a5b-4d3d-b714-8f864c4b4f44"
+                  },
+                  {
+                    "type": "constant",
+                    "value": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "5af90041-11f9-4157-abb9-1cdf1c1c6da6"
+            }
+          },
+          "condition": {
+            "op": "and",
+            "vars": [
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "7327d2a7-ab74-4f75-a47d-c3eed3b5d518"
+                  },
+                  {
+                    "type": "constant",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "op": "equal",
+                "vars": [
+                  {
+                    "type": "hidden",
+                    "value": "curr"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "simple house soiling"
+                  }
+                ]
+              },
+              {
+                "op": "is",
+                "vars": [
+                  {
+                    "type": "field",
+                    "value": "1ff748bd-1a5b-4d3d-b714-8f864c4b4f44"
+                  },
+                  {
+                    "type": "constant",
+                    "value": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "6621f220-238b-4595-a53a-2297d9d66d6b"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "7327d2a7-ab74-4f75-a47d-c3eed3b5d518"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8cef052b-ef6f-4ea3-87a8-cccee5bfeb1b"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "88618a4f-5191-43ac-a0b5-fb52a072d4a2",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "80db3edf-2baa-402e-ae05-b860cad42bb1"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "88618a4f-5191-43ac-a0b5-fb52a072d4a2"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8cef052b-ef6f-4ea3-87a8-cccee5bfeb1b"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "hidden",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "dcf25c34-3e5c-401d-8ffc-a5a72a482a82"
+            }
+          },
+          "condition": {
+            "op": "contains",
+            "vars": [
+              {
+                "type": "hidden",
+                "value": "curr"
+              },
+              {
+                "type": "constant",
+                "value": "Skipping"
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "d7f4150f-d814-49ad-87b1-c75105389de8"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "dcf25c34-3e5c-401d-8ffc-a5a72a482a82",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "56b43501-d25b-431d-81e5-62a5ffc799d3"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "855c5701-3997-4d21-9d8a-fc5517c84007",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "4f634a51-da04-48b2-90ad-7cc388b0e92b"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "51ff2f6a-a685-430c-9048-12e251d50ae8",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "4f634a51-da04-48b2-90ad-7cc388b0e92b"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "ebf40ca5-eb55-485c-9dbf-21a76dcb829d",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "4f634a51-da04-48b2-90ad-7cc388b0e92b"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "e53b0fb1-2710-425a-b30a-9f1a58a4e723",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "88618a4f-5191-43ac-a0b5-fb52a072d4a2"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "f516ff41-b632-48f4-b128-a30f74dd5d22",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8cef052b-ef6f-4ea3-87a8-cccee5bfeb1b"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "6621f220-238b-4595-a53a-2297d9d66d6b",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8cef052b-ef6f-4ea3-87a8-cccee5bfeb1b"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "f550345a-7647-40ef-a9ab-183ced4bf4a3",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8cef052b-ef6f-4ea3-87a8-cccee5bfeb1b"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "5af90041-11f9-4157-abb9-1cdf1c1c6da6",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "8cef052b-ef6f-4ea3-87a8-cccee5bfeb1b"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    }
+  ],
+  "created_at": "2025-01-30T02:32:23+00:00",
+  "last_updated_at": "2025-03-20T07:21:25+00:00",
+  "published_at": "2025-01-30T02:52:12+00:00",
+  "_links": {
+    "display": "https://behaviorstudies.typeform.com/to/CTXOcDXJ",
+    "responses": "https://api.typeform.com/forms/CTXOcDXJ/responses"
+  }
+}

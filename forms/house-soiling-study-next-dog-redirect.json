@@ -1,0 +1,146 @@
+{
+  "id": "F2M0A0xR",
+  "type": "quiz",
+  "title": "house-soiling-study-next-dog-redirect",
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/9M4eRb"
+  },
+  "theme": {
+    "href": "https://api.typeform.com/themes/az2vZn"
+  },
+  "settings": {
+    "language": "en",
+    "progress_bar": "proportion",
+    "meta": {
+      "allow_indexing": false
+    },
+    "hide_navigation": false,
+    "is_public": true,
+    "is_trial": false,
+    "show_progress_bar": true,
+    "show_typeform_branding": true,
+    "are_uploads_public": false,
+    "show_time_to_complete": true,
+    "show_number_of_submissions": false,
+    "show_cookie_consent": false,
+    "show_question_number": true,
+    "show_key_hint_on_choices": true,
+    "autosave_progress": true,
+    "free_form_navigation": false,
+    "use_lead_qualification": false,
+    "pro_subdomain_enabled": false,
+    "auto_translate": true,
+    "partial_responses_to_all_integrations": false
+  },
+  "thankyou_screens": [
+    {
+      "id": "p32MJ8XJ7Bpv",
+      "ref": "thankyou-screen",
+      "title": "Thank you for participating!",
+      "type": "thankyou_screen",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "redirect",
+        "button_text": "Finish",
+        "redirect_url": "https://www.centerforcaninebehaviorstudies.org/donate",
+        "description": "Your participation in these surveys is helping change the world."
+      }
+    },
+    {
+      "id": "KL64sBuV9Shz",
+      "ref": "c0abb3b6-74d1-4895-962f-2bce72efcc40",
+      "title": "Dog Top Level",
+      "type": "url_redirect",
+      "properties": {
+        "redirect_url": "https://behaviorstudies.typeform.com/to/Yje10CYX?id={{hidden:id}}&msg=We%20already%20have%20submissions%20for%3A&list={{hidden:list}}{{hidden:sep}}{{hidden:dog_name}}&sep=%2C%20"
+      }
+    },
+    {
+      "id": "DefaultTyScreen",
+      "ref": "default_tys",
+      "title": "Thanks for completing this typeform\nNow *create your own* \u2014 it's free, easy, & beautiful",
+      "type": "thankyou_screen",
+      "properties": {
+        "show_button": true,
+        "share_icons": false,
+        "button_mode": "default_redirect",
+        "button_text": "Create a *typeform*"
+      },
+      "attachment": {
+        "type": "image",
+        "href": "https://images.typeform.com/images/2dpnUBBkz2VN"
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "ZM4zGroEfibu",
+      "title": "Would you like to complete the survey for another dog?",
+      "ref": "01JJTJKFCJMXW6V9QM81AJ3FF7",
+      "properties": {
+        "description": "We already have responses for:{{hidden:list}}{{hidden:sep}}{{hidden:dog_name}}"
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "yes_no"
+    }
+  ],
+  "hidden": [
+    "list",
+    "sep",
+    "dog_name",
+    "id"
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "01JJTJKFCJMXW6V9QM81AJ3FF7",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "c0abb3b6-74d1-4895-962f-2bce72efcc40"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "01JJTJKFCJMXW6V9QM81AJ3FF7"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "thankyou-screen"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    }
+  ],
+  "created_at": "2025-01-30T03:03:19+00:00",
+  "last_updated_at": "2025-01-30T04:49:01+00:00",
+  "published_at": "2025-01-30T03:08:57+00:00",
+  "_links": {
+    "display": "https://behaviorstudies.typeform.com/to/F2M0A0xR",
+    "responses": "https://api.typeform.com/forms/F2M0A0xR/responses"
+  }
+}

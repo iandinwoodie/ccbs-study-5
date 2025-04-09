@@ -1,0 +1,939 @@
+{
+  "id": "Yje10CYX",
+  "type": "quiz",
+  "title": "house-soiling-study-dog",
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/9M4eRb"
+  },
+  "theme": {
+    "href": "https://api.typeform.com/themes/az2vZn"
+  },
+  "settings": {
+    "language": "en",
+    "progress_bar": "proportion",
+    "meta": {
+      "allow_indexing": false
+    },
+    "hide_navigation": false,
+    "is_public": true,
+    "is_trial": false,
+    "show_progress_bar": true,
+    "show_typeform_branding": false,
+    "are_uploads_public": false,
+    "show_time_to_complete": true,
+    "show_number_of_submissions": false,
+    "show_cookie_consent": false,
+    "show_question_number": true,
+    "show_key_hint_on_choices": true,
+    "autosave_progress": true,
+    "free_form_navigation": false,
+    "use_lead_qualification": false,
+    "pro_subdomain_enabled": false,
+    "auto_translate": true,
+    "partial_responses_to_all_integrations": false
+  },
+  "thankyou_screens": [
+    {
+      "id": "phc7KGYgzZxk",
+      "ref": "end-screen-next-dog",
+      "title": "Dog Inner Loop",
+      "type": "url_redirect",
+      "properties": {
+        "redirect_url": "https://behaviorstudies.typeform.com/to/CTXOcDXJ#curr={{var:p1}}&p1={{var:p2}}&p2={{var:p3}}&p3={{var:p4}}&p4={{var:p5}}&p5=END&list={{hidden:list}}&sep={{hidden:sep}}&dog_name={{field:dog-name}}&id={{hidden:id}}"
+      }
+    },
+    {
+      "id": "7Sk6g9Cepea1",
+      "ref": "end-screen-finished",
+      "title": "Next Dog Redirect",
+      "type": "url_redirect",
+      "properties": {
+        "redirect_url": "https://behaviorstudies.typeform.com/to/F2M0A0xR#list={{hidden:list}}&sep={{hidden:sep}}&dog_name={{field:dog-name}}&id={{hidden:id}}"
+      }
+    },
+    {
+      "id": "DefaultTyScreen",
+      "ref": "default_tys",
+      "title": "All done! Thanks for your time.",
+      "type": "thankyou_screen",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "FGsCx52Jryhc",
+      "title": "What is the name of the dog you would like to submit a response for?",
+      "ref": "dog-name",
+      "properties": {
+        "description": "{{hidden:msg}}{{hidden:list}}"
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "DTLsSsIDg1Ba",
+      "title": "What breed is {{field:dog-name}}",
+      "ref": "dog-breed",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "lXkCOetztGEl",
+      "title": "Is {{field:dog-name}} less than 1 year old?",
+      "ref": "bdc11b13-de29-4694-a094-7b6a6719858a",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "mYX8PRSw4xsR",
+      "title": "How old is {{field:dog-name}}?",
+      "ref": "402bf887-a2ee-44af-83e6-650b47d3d04c",
+      "properties": {
+        "description": "In months"
+      },
+      "validations": {
+        "required": true,
+        "min_value": 1,
+        "max_value": 12
+      },
+      "type": "number"
+    },
+    {
+      "id": "G3cgy0bkmEQ6",
+      "title": "How old is {{field:dog-name}}?",
+      "ref": "2d56b3e3-1ad3-483f-8af9-f8c3ea235ed4",
+      "properties": {
+        "description": "In years"
+      },
+      "validations": {
+        "required": true,
+        "min_value": 1,
+        "max_value": 40
+      },
+      "type": "number"
+    },
+    {
+      "id": "QKUHPSgpMg2s",
+      "title": "What gender is {{field:dog-name}}?",
+      "ref": "04c1d0e2-c72d-4b92-9573-6d2d27eea843",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "geKfvAKK3EGL",
+            "ref": "39b7609c-041e-4d20-afdd-32d081407788",
+            "label": "Male"
+          },
+          {
+            "id": "qXwU6onHY63y",
+            "ref": "23ea3c19-7d0e-48e7-a419-c4c8caa996d5",
+            "label": "Female"
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "3AAM4jFCkKcy",
+      "title": "Is {{field:dog-name}} spayed/neutered?",
+      "ref": "afcdb2be-c496-4764-a7ba-205d9856dde0",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "de5juDXIM0Bz",
+      "title": "How long have you lived with {{field:dog-name}}?",
+      "ref": "c20f074f-18eb-4f85-a9a3-f2b7cf4bbd92",
+      "properties": {
+        "description": "E.g., since 8 weeks old"
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "short_text"
+    },
+    {
+      "id": "e0HtUFDkangS",
+      "title": "Do you walk/play schedule with {{field:dog-name}} on a daily basis?",
+      "ref": "73a33644-b580-4784-9110-7b5b4435f723",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "syrD7Ek8qxYA",
+      "title": "How many times do you walk/play with {{field:dog-name}} per day? ",
+      "ref": "5a6ac985-58bb-4256-b3b0-a3055cfffc63",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "number"
+    },
+    {
+      "id": "6WoCaFCGBA7Q",
+      "title": "How many times do you walk/play with {{field:dog-name}} per week?",
+      "ref": "a2e2dbca-51e9-4c00-812f-a44a30c1850f",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "number"
+    },
+    {
+      "id": "7zvPJyRBGCbp",
+      "title": "What is the average duration of your walk/play sessions with {{field:dog-name}}?",
+      "ref": "1226d81e-e0e9-4e9d-a12a-dfbd6deb89cf",
+      "properties": {
+        "description": "In minutes"
+      },
+      "validations": {
+        "required": false
+      },
+      "type": "number"
+    },
+    {
+      "id": "sjSWL1myHj5W",
+      "title": "How many hours per day is {{field:dog-name}} kept in a crate?",
+      "ref": "b0249abe-5c3f-43e6-9a9f-e83b07f78a34",
+      "properties": {
+        "description": "If none, please enter 0"
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "number"
+    },
+    {
+      "id": "fXn42vHHAMJb",
+      "title": "Have you ever had an issue with {{field:dog-name}} soiling in the house? ",
+      "ref": "3a08571c-055e-4587-8d1b-ee63da009dca",
+      "properties": {
+        "description": "Soiling may include urine, feces, or both"
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "7WkXs9Nyn6al",
+      "title": "How has {{field:dog-name}} soiled in the house?",
+      "ref": "c78ba403-8c36-43c5-b746-2069c052055d",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": true,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "YLLIfmbC9Fle",
+            "ref": "6561ead0-424a-4e4a-8841-d12db244fa58",
+            "label": "Urine"
+          },
+          {
+            "id": "pN30PCAdNaTU",
+            "ref": "324bd384-79f0-45f8-a23b-8ecb4ca15bf3",
+            "label": "Feces"
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "9O2LhgtA6BOx",
+      "title": "Have you always had an issue with {{field:dog-name}} soiling in the house?",
+      "ref": "d8d6a6bd-37a2-45da-99c8-8d647ae9d410",
+      "properties": {
+        "description": "If this is new/recent behavior, please select No"
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "3Um30s8zMoZy",
+      "title": "Has {{field:dog-name}} displayed submissive urination (super submission) soiling?",
+      "ref": "78e7fe40-b980-400e-8f3e-072d25055d99",
+      "properties": {
+        "description": "This occurs only when greeting people/visitors or when imposed or punished by people."
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "YIlMRTb7XrgL",
+      "title": "Has {{field:dog-name}} displayed urine marking?",
+      "ref": "1cb152f8-c3aa-42c6-a24b-bc575e9d86b1",
+      "properties": {
+        "description": "The dog lifts their leg or squats to urinate on household items (e.g., clothing, furniture, dog beds, clothes, pillows, personal property)."
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "rg2Bj8Y6RkAN",
+      "title": "Has {{field:dog-name}} displayed simple house soiling?",
+      "ref": "4e25b64f-52f3-4478-87d6-a9ae11e11719",
+      "properties": {
+        "description": "Using the home inside as a bathroom (urine and/or feces) whether you are home or away."
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "MWnwEmDSq1Y1",
+      "title": "Has {{field:dog-name}} displayed incontinence?",
+      "ref": "1685de95-3751-423a-bb39-bfc21d3bb5ed",
+      "properties": {
+        "description": "E.g., spayed female dribbling urine when lying down."
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "ms4KmEYrtK5w",
+      "title": "Has {{field:dog-name}} displayed soiling related to cognitive decline?",
+      "ref": "b56d70cd-283a-46af-a1ae-e99005f1f185",
+      "properties": {
+        "description": "E.g., in response to Alzheimer's or another form of dementia your formally house trained dog is now having an issue with soiling in the house."
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "ppOpIBqgLEAr",
+      "title": "Is there another form of soiling that {{field:dog-name}} is displaying that you'd like to tell us about?",
+      "ref": "0dd13857-b690-492e-b811-d86b4443c39a",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "yes_no"
+    },
+    {
+      "id": "VrvYneJjM9QR",
+      "title": "Please describe the other type of soiling that {{field:dog-name}} is displaying.",
+      "ref": "3a716beb-a3e7-43b7-a12c-d9a4dc3a8bd1",
+      "properties": {},
+      "validations": {
+        "required": true
+      },
+      "type": "long_text"
+    },
+    {
+      "id": "zuvfKV1BtQuE",
+      "title": "How often does {{field:dog-name}} soil in the house?",
+      "ref": "3d0ae17b-50c7-4ada-b378-669bc33ea3ec",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "ybRdeytKEAYs",
+            "ref": "eccc4f64-e2b0-42c8-905c-efe7de204282",
+            "label": "Daily"
+          },
+          {
+            "id": "SaOFFt9faNWu",
+            "ref": "caef8e6a-044f-48b3-9fbe-6c2958c4ebb0",
+            "label": "Weekly"
+          },
+          {
+            "id": "mcZTVVXnkAzS",
+            "ref": "1d648ff6-4585-41e6-b0e6-0cc4da7f1294",
+            "label": "Monthly"
+          },
+          {
+            "id": "rfr0ialGdmFj",
+            "ref": "264fa40f-5f27-4adf-ab14-c8ce74a1cb46",
+            "label": "Yearly"
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "yfBSgNJc2DFh",
+      "title": "Which of the scenarios describes the soiling behavior of {{field:dog-name}}?",
+      "ref": "cdd88501-f09f-4214-8ada-cfce58eff4a1",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": true,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "8cYaet5WjnAu",
+            "ref": "77be7c29-d2d3-4608-b465-7894e8235400",
+            "label": "Soiling in a specific location (e.g., bedroom)"
+          },
+          {
+            "id": "bzf8TCDK3D6Z",
+            "ref": "9283c627-d693-4ce0-b9ae-9ada4d62edff",
+            "label": "Soiling on a specific object (e.g., plant)"
+          },
+          {
+            "id": "jOtzyXFAcSIS",
+            "ref": "6536fc8a-f977-41ff-b469-7460b2edc6b7",
+            "label": "Soiling in random locations"
+          },
+          {
+            "id": "R6oIb25hFK89",
+            "ref": "a47943bb-9105-4a7a-a0a8-e6785aecc970",
+            "label": "Soiling on random objects"
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "vrNsnFam6BWn",
+      "title": "Where does {{field:dog-name}} typically soil in the house?",
+      "ref": "ba430365-49cd-4ab0-93d7-cd5bc2cadbbb",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": true,
+        "allow_other_choice": true,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "hfimzrRJiNUo",
+            "ref": "2b485f3c-e266-459e-9d1d-a2bdb643c58f",
+            "label": "Bedroom"
+          },
+          {
+            "id": "iReZVZMFH6rJ",
+            "ref": "d9e16d6a-34ea-493b-a8c2-4800b57a1d46",
+            "label": "Shared Living Space (e.g., living room)"
+          },
+          {
+            "id": "Q7LSFTpt17xj",
+            "ref": "6e4472db-4046-47ac-9255-63e09759be8f",
+            "label": "Bathroom"
+          },
+          {
+            "id": "zSmshoVig7yQ",
+            "ref": "29192e3e-6559-4a94-9883-bb04b86aca92",
+            "label": "Crate"
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    }
+  ],
+  "hidden": [
+    "msg",
+    "list",
+    "sep",
+    "id"
+  ],
+  "variables": {
+    "p1": "Skipping section on submissive urination",
+    "p2": "Skipping section on urine marking",
+    "p3": "Skipping section in simple house soiling",
+    "p4": "Skipping section on incontinence",
+    "p5": "Skipping section on cognitive decline",
+    "score": 0
+  },
+  "logic": [
+    {
+      "type": "field",
+      "ref": "bdc11b13-de29-4694-a094-7b6a6719858a",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "402bf887-a2ee-44af-83e6-650b47d3d04c"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "bdc11b13-de29-4694-a094-7b6a6719858a"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "2d56b3e3-1ad3-483f-8af9-f8c3ea235ed4"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "3a08571c-055e-4587-8d1b-ee63da009dca",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "c78ba403-8c36-43c5-b746-2069c052055d"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "3a08571c-055e-4587-8d1b-ee63da009dca"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "end-screen-finished"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "73a33644-b580-4784-9110-7b5b4435f723",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "5a6ac985-58bb-4256-b3b0-a3055cfffc63"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "73a33644-b580-4784-9110-7b5b4435f723"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "a2e2dbca-51e9-4c00-812f-a44a30c1850f"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "5a6ac985-58bb-4256-b3b0-a3055cfffc63",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "1226d81e-e0e9-4e9d-a12a-dfbd6deb89cf"
+            }
+          },
+          "condition": {
+            "op": "greater_than",
+            "vars": [
+              {
+                "type": "field",
+                "value": "5a6ac985-58bb-4256-b3b0-a3055cfffc63"
+              },
+              {
+                "type": "constant",
+                "value": 0
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "b0249abe-5c3f-43e6-9a9f-e83b07f78a34"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "a2e2dbca-51e9-4c00-812f-a44a30c1850f",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "1226d81e-e0e9-4e9d-a12a-dfbd6deb89cf"
+            }
+          },
+          "condition": {
+            "op": "greater_than",
+            "vars": [
+              {
+                "type": "field",
+                "value": "a2e2dbca-51e9-4c00-812f-a44a30c1850f"
+              },
+              {
+                "type": "constant",
+                "value": 0
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "b0249abe-5c3f-43e6-9a9f-e83b07f78a34"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "0dd13857-b690-492e-b811-d86b4443c39a",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "3a716beb-a3e7-43b7-a12c-d9a4dc3a8bd1"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "0dd13857-b690-492e-b811-d86b4443c39a"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "3d0ae17b-50c7-4ada-b378-669bc33ea3ec"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "78e7fe40-b980-400e-8f3e-072d25055d99",
+      "actions": [
+        {
+          "action": "set",
+          "details": {
+            "target": {
+              "type": "variable",
+              "value": "p1"
+            },
+            "value": {
+              "type": "constant",
+              "value": "submissive urination"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "78e7fe40-b980-400e-8f3e-072d25055d99"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "1cb152f8-c3aa-42c6-a24b-bc575e9d86b1",
+      "actions": [
+        {
+          "action": "set",
+          "details": {
+            "target": {
+              "type": "variable",
+              "value": "p2"
+            },
+            "value": {
+              "type": "constant",
+              "value": "urine marking"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "1cb152f8-c3aa-42c6-a24b-bc575e9d86b1"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "4e25b64f-52f3-4478-87d6-a9ae11e11719",
+      "actions": [
+        {
+          "action": "set",
+          "details": {
+            "target": {
+              "type": "variable",
+              "value": "p3"
+            },
+            "value": {
+              "type": "constant",
+              "value": "simple house soiling"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "4e25b64f-52f3-4478-87d6-a9ae11e11719"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "1685de95-3751-423a-bb39-bfc21d3bb5ed",
+      "actions": [
+        {
+          "action": "set",
+          "details": {
+            "target": {
+              "type": "variable",
+              "value": "p4"
+            },
+            "value": {
+              "type": "constant",
+              "value": "incontinence"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "1685de95-3751-423a-bb39-bfc21d3bb5ed"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "b56d70cd-283a-46af-a1ae-e99005f1f185",
+      "actions": [
+        {
+          "action": "set",
+          "details": {
+            "target": {
+              "type": "variable",
+              "value": "p5"
+            },
+            "value": {
+              "type": "constant",
+              "value": "cognitive decline"
+            }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              {
+                "type": "field",
+                "value": "b56d70cd-283a-46af-a1ae-e99005f1f185"
+              },
+              {
+                "type": "constant",
+                "value": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "402bf887-a2ee-44af-83e6-650b47d3d04c",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "field",
+              "value": "04c1d0e2-c72d-4b92-9573-6d2d27eea843"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "field",
+      "ref": "ba430365-49cd-4ab0-93d7-cd5bc2cadbbb",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": {
+              "type": "thankyou",
+              "value": "end-screen-next-dog"
+            }
+          },
+          "condition": {
+            "op": "always",
+            "vars": []
+          }
+        }
+      ]
+    }
+  ],
+  "created_at": "2025-01-20T16:13:57+00:00",
+  "last_updated_at": "2025-03-20T17:46:35+00:00",
+  "published_at": "2025-01-20T16:17:37+00:00",
+  "_links": {
+    "display": "https://behaviorstudies.typeform.com/to/Yje10CYX",
+    "responses": "https://api.typeform.com/forms/Yje10CYX/responses"
+  }
+}
